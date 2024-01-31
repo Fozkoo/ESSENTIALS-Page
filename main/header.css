@@ -79,27 +79,23 @@ header {
     align-items: center;
 }
 
-.custom-icon1 {
+.hamburger-icon1 {
     height: 35px;
     width: 35px;
 }
 
-.custom-icon2 {
+.lup-icon2 {
     height: 25px;
     width: 25px;
 }
 
-.container-icons {
-    display: flex;
-    position: absolute;
-    
-}
 
 
 
 
 
-@media (max-width: 978px) {
+
+@media (max-width:978px) {
 
     .nav1, .nav2 {
         font-size: 13px;
@@ -115,16 +111,40 @@ header {
         margin-left: 20px;
     }
     
-    .custom-icon1 {
-        height: 35px;
-        width: 35px;
+    .hamburger-icon1 {
+        height: 30px;
+        width: 30px;
         fill: grey;
     }
-    .custom-icon2 {
-        margin-left: 8px;
+    .lup-icon2 {
+        margin-left: 5px;
         height: 20px;
         width: 20px;
         fill: grey;
+    }
+
+    .container-icons {
+        display: flex;
+        position: absolute;
+        left: 360px
+    }
+
+    .person-icon1 {
+        height: 23px;
+        width: 23px;
+        fill: grey;
+    }
+
+    .box-icon2 {
+        margin-left: 5px;
+        height: 20px;
+        width: 20px;
+        fill: grey;
+    }
+
+    .logo-principal h1 {
+        font-size: 1.6em;
+        margin-bottom: 0;
     }
 
 
