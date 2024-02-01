@@ -1,0 +1,14 @@
+.container {
+margin-top: 40px;
+}
+
+
+.contain-tittle h2{
+    font-size: 12px;
+    font-weight: 800;
+}
+
+.description-span {
+    font-size: 12px;
+    max-width: 1150px;
+}
