@@ -12,3 +12,45 @@ margin-top: 40px;
     font-size: 12px;
     max-width: 1150px;
 }
+
+.section-one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 50px;
+  }
+  
+  .card-one {
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    height: 580px;
+    cursor: pointer;
+  }
+  
+  .contain-imagen {
+    display: flex;
+    justify-content: center;
+    width: 280px;
+    height: 500px;
+  }
+  
+  .contain-imagen img {
+    width: 250px;
+    height: 500px; /* Esto asegura que la proporción de la imagen se mantenga */
+  }
+  
+  .contain-description {
+  }
+  
+  .contain-description h4 {
+    margin-top: 10px;
+    font-size: 12px;
+    margin-bottom: 0;
+  }
+  
+  .contain-description span {
+    font-size: 11px;
+  }
+  
