@@ -23,3 +23,16 @@ document.getElementById("closeButton").addEventListener("click", function() {
     }
 });
 
+document.addEventListener('DOMContentLoaded', function () {
+    var searchIcon = document.getElementById('search-icon');
+    var containLup = document.querySelector('.contain-lup');
+
+    searchIcon.addEventListener('click', function () {
+        containLup.style.display = (containLup.style.display === 'none' || containLup.style.display === '') ? 'flex' : 'none';
+    });
+});
+
+
+
+
+
