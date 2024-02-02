@@ -237,6 +237,7 @@ header {
       display: none;
       flex-direction: column;
       position: absolute;
+      background-color: white;
     }
 
 
@@ -291,6 +292,7 @@ header {
       align-items: center;
       margin-top: 20px;
       margin-left: 20px;
+      margin-bottom: 10px;
       font-size: 12px;
     }
     .boton1 {
