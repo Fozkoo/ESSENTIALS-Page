@@ -1,0 +1,57 @@
+
+.container-footer {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contain-footer1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    gap: 30px;
+  }
+
+  .contain-footer1 a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .contain-footer1 a:hover {
+    text-decoration: underline; /* Subraya el texto al pasar el ratón por encima */
+    color: #000; /* Puedes ajustar el color del subrayado según tus preferencias */
+  }
+
+
+  .contain-footer2 {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    gap: 30px;
+  }
+
+  .contain-footer2 a {
+    text-decoration: none;
+    color: #888;
+  }
+
+  .contain-footer2 a:hover {
+    text-decoration: underline; /* Subraya el texto al pasar el ratón por encima */
+    color: #000; /* Puedes ajustar el color del subrayado según tus preferencias */
+  }
+
+  @media (max-width:978px) {
+    
+    .container-footer {
+      display: none;
+      flex-direction: column;
+    }
+
+
+
+
+
+  }
