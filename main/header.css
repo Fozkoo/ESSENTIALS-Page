@@ -1,20 +1,24 @@
 header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     text-align: center;
-    margin-top: 0px;
-    background-color: #fff;
+    background-color: transparent;
     height: 60px;
+    z-index: 1000; /* Asegura que el header esté por encima de otros elementos */
 }
 
 .container-global-header {
     display: flex;
-    position: static;
     justify-content: space-between;
     align-items: center;
     width: 100%;
 }
+
 
 .nav1, .nav2 {
     font-size: 12px;

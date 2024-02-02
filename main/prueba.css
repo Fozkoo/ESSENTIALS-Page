@@ -12,6 +12,7 @@
   align-items: center;
   gap: 30px;
   margin-top: 50px;
+  margin-bottom: 20px;
 }
 
 .card-one {
@@ -66,5 +67,5 @@
     margin-top: 50px;
   }
 
-   
+
 }
