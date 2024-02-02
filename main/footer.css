@@ -18,8 +18,8 @@
   }
 
   .contain-footer1 a:hover {
-    text-decoration: underline; /* Subraya el texto al pasar el ratón por encima */
-    color: #000; /* Puedes ajustar el color del subrayado según tus preferencias */
+    text-decoration: underline; 
+    color: #000; 
   }
 
 
@@ -39,8 +39,8 @@
   }
 
   .contain-footer2 a:hover {
-    text-decoration: underline; /* Subraya el texto al pasar el ratón por encima */
-    color: #000; /* Puedes ajustar el color del subrayado según tus preferencias */
+    text-decoration: underline; 
+    color: #000;
   }
 
   @media (max-width:978px) {
@@ -49,9 +49,4 @@
       display: none;
       flex-direction: column;
     }
-
-
-
-
-
   }

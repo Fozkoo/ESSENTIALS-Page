@@ -9,7 +9,7 @@ header {
     text-align: center;
     background-color: transparent;
     height: 60px;
-    z-index: 1000; /* Asegura que el header esté por encima de otros elementos */
+    z-index: 1000; 
 }
 
 .container-global-header {
